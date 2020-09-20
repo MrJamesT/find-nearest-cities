@@ -1,4 +1,4 @@
-const data = require('./cities1000.json');
+const data = require('./cities15000.json');
 const distance = require('@turf/distance').default;
 const { point } = require('@turf/helpers');
 const kdbush = require('kdbush');

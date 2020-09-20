@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js | tap-spec",
-    "data": "wget http://download.geonames.org/export/dump/cities1000.zip -O cities1000.zip; unzip cities1000.zip; rm cities1000.zip"
+    "data": "wget http://download.geonames.org/export/dump/cities15000.zip -O cities15000.zip; unzip cities15000.zip; rm cities15000.zip"
   },
   "files": [
     "index.js",
     "README.md",
-    "cities1000.json"
+    "cities15000.json"
   ],
   "repository": {
     "type": "git",

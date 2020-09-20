@@ -5,5 +5,5 @@ Thumbs.db
 node_modules
 npm-debug.log
 package-lock.json
-cities1000.txt
-cities1000.json
+cities15000.txt
+cities15000.json

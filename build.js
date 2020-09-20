@@ -43,11 +43,11 @@ const rowStream = through.obj(function (line, enc, cb) {
     cb();
 })
 
-fs.createReadStream('./cities1000.txt')
+fs.createReadStream('./cities15000.txt')
   .pipe(split2())
   .pipe(rowStream)
   .pipe(JSONStream.stringify())
-  .pipe(fs.createWriteStream( __dirname + '/cities1000.json' ))
+  .pipe(fs.createWriteStream( __dirname + '/cities15000.json' ))
   .on('error', console.error);
 
 

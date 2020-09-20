@@ -1,6 +1,8 @@
 # find-nearest-cities
 
-Searches the nearest *cities*, using [geokdbush](https://github.com/mourner/geokdbush). Data taken from [cities1000 at geonames.org](http://download.geonames.org/export/dump/)
+*this is a modified version to find cities that are 15000+ in size*
+
+Searches the nearest *cities*, using [geokdbush](https://github.com/mourner/geokdbush). Data taken from [cities15000 at geonames.org](http://download.geonames.org/export/dump/)
 
 [![build status](https://img.shields.io/travis/steffenmllr/find-nearest-cities.svg)](https://travis-ci.org/steffenmllr/find-nearest-cities)
 [![npm version](https://img.shields.io/npm/v/find-nearest-cities.svg)](https://www.npmjs.com/package/find-nearest-cities)
